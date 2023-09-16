@@ -1,0 +1,230 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*--CSS for Header and Nav Section---*/
+header {
+    text-align: center;
+    padding: 1px; 
+    line-height: 0.5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+h1{
+    font-size: 36px; 
+    margin:10px;
+    padding: 5px;
+    
+}
+
+header p{
+    font-size: 16px;
+    margin:1px;
+    padding-bottom: 5px;
+}
+
+nav ul {
+    padding:5px;
+    list-style-type: none;
+    background-color: #007590;
+}
+
+  
+  
+.nav-list {
+    display: flex;
+    justify-content: center;
+    margin:1px;
+    font-weight: bold;
+    color:black
+    
+}
+  
+.nav-list li {
+    padding: 5px;
+}
+  
+.nav-list a {
+    text-decoration: none;
+      
+    padding: 10px 20px; 
+    border: 1px;
+    border-radius: 8px;
+    display: block; 
+    transition: background-color 0.3s; 
+  }
+  
+  
+  .nav-list a:hover {
+    background-color: lightgoldenrodyellow; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    color:white;
+  }
+ /*--CSS for About Section---*/
+  .about{
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+  }
+  .about p{
+    padding: 30px;
+  }
+  /*--CSS for Attraction Section---*/
+  .attraction{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+  }
+  .list-a{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    list-style-type:none;
+  }
+  .list-a li {
+    text-align: center;
+    margin:10px;
+  }
+  .list-a li p{
+    text-align: justify; 
+    
+  }
+
+  
+  /*--CSS for Statistics Section---*/
+  .stats{
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  table{
+    width:60%;
+    border:1px solid black;
+  }
+  th, td{
+    text-align: center;
+    border:1px solid black;
+  }
+  th{
+    background-color: bisque;
+  }
+  td{
+    background-color: coral;
+  }
+ /*--CSS for Feedback form---*/
+  .feedback{
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  form{
+    width: 80%;
+   
+    background-color: lightgoldenrodyellow;
+    border: 2px solid grey;
+    
+  }
+  fieldset{
+    margin:10px;
+    padding: 5px;
+  }
+  label {
+    margin-bottom: 10px;
+    padding:10px;
+}
+select{
+    margin-bottom: 10px;
+    padding:10px;
+}
+legend{
+    padding:10px;
+}
+  input{
+    padding:10px;
+
+    margin: 10px;
+    width: 500px
+
+
+  }
+  textarea{
+    align-self: center;
+    padding:10px;
+    margin: 10px;
+    width: 90%;
+    height: 150px;
+  }
+  .textarea{
+    display: flex;
+    justify-content: space-between;
+  }
+
+/* CSS for quotes section*/
+.quotes{
+padding:10px;
+text-align: center;
+background-color: biege;
+}
+blockquote {
+    
+  
+    padding-left: 10px; /* Add some padding for visual appeal */
+}
+
+cite {
+    font-weight: bold;
+    font-style: italic;
+    color: #666;
+    margin-top: 5px;
+    text-align: right; /* Align attribution text to the right */
+}
+/* CSS for contact section*/
+.contact {
+
+    padding: 20px;
+    text-align: center;
+}
+
+.contact p {
+    margin: 10px 0;
+}
+
+.contact a {
+    text-decoration: none;
+    color: #007590;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+/* CSS for contact section*/
+footer{
+    padding-top:10px;
+    background-color:black;
+    color:white;
+    bottom: 0;
+}
+footer p{
+    text-align: center;
+    margin: 1px;
+    padding: 4px;
+}
+footer ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin:1px;
+}
+footer ul li {
+    padding: 5px;
+}
